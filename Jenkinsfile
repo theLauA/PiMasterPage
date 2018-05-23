@@ -1,10 +1,10 @@
-pipeline{
-	agent none
-	stages{
-		stage('Build'){
-			steps{
-			echo 'Test'
-			}
-		}
-	}
+pipeline {
+  agent none
+  stages {
+    stage('Build') {
+      steps {
+        echo 'Test'
+      }
+    }
+  }
 }
